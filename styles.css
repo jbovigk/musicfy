@@ -1,0 +1,65 @@
+body {
+    color: black;
+    background: hotpink;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+header{
+    border-bottom: solid 2px rgb(143, 11, 140);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(67, 3, 83);
+    font-family: "Baskervville SC", serif;
+}
+
+.chamada{
+background: rgb(243, 4, 138);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+font-family: "Almendra", serif;
+}
+
+.titulo1{
+
+margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+}
+
+img{
+    height: 150px;
+}
+
+.music{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+}
+
+.songs{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.music img{
+opacity: 0.6;
+}
+
+.music img:hover{
+opacity: 1.0;
+border: 1px solid purple;
+}
+
+.songs h2{
+    color: rgb(67, 3, 83)
+}
